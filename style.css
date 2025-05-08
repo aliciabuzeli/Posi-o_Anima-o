@@ -1,0 +1,118 @@
+ .pag3div1{
+    background-color: red;
+    height: 500px;
+    width: 300px;
+    margin: 45px;
+    position: absolute;
+ }
+ .pag3div2{
+    position: absolute;
+    background-color: lime;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation-name: sumir;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sumir {
+   
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.pag3div3{
+    position: absolute;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation-name: TrocaCor3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.pag3div4{
+    position: absolute;
+    background-color: green;
+    height: 200px;
+    width: 500px;
+    right: 0;
+}
+.pag3div5{
+    background-color: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 50%;
+    animation-name: TrocaCor3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.pag3div6{
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 250px;
+    width: 400px;
+}
+.pag3div7{
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    animation-name: TrocaCor3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes TrocaCor3{
+    0%{
+        background-color: black;
+    }
+    10%{
+        background-color: yellow;
+    }
+    20%{
+        background-color: green;
+    }
+    30%{
+        background-color: blue;
+    }
+    40%{
+        background-color: purple;
+    }
+    50%{
+        background-color: orange;
+    }
+    60%{
+        background-color: pink;
+    }
+    70%{
+        background-color: brown;
+    }
+    80%{
+        background-color: gray;
+    }
+    90%{
+        background-color: white;
+    }
+    100%{
+        background-color: red;
+    }
+}
